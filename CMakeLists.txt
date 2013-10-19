@@ -10,3 +10,6 @@ target_link_libraries   (face_detect ${OpenCV_LIBS})
 
 add_executable          (show_image src/show_image.cpp)
 target_link_libraries   (show_image ${OpenCV_LIBS})
+
+add_executable          (match_images src/match_images.cpp)
+target_link_libraries   (match_images ${OpenCV_LIBS})
