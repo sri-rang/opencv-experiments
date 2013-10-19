@@ -1,0 +1,6 @@
+cmake_minimum_required  (VERSION 2.8)
+set                     (CMAKE_RUNTIME_OUTPUT_DIRECTORY "bin/")
+project                 (OpenCVExperiments)
+find_package            (OpenCV REQUIRED)
+add_executable          (face_detect src/face_detect.cpp)
+target_link_libraries   (face_detect ${OpenCV_LIBS})
