@@ -7,8 +7,8 @@
 using namespace cv;
 
 int main (void) {
-	Mat img1 = imread("res/images/pnid.png", CV_LOAD_IMAGE_GRAYSCALE);
-	Mat img2 = imread("res/images/pnid_cropped.png", CV_LOAD_IMAGE_GRAYSCALE);
+	Mat img1 = imread("res/images/square_circle_triangle.png", CV_LOAD_IMAGE_GRAYSCALE);
+	Mat img2 = imread("res/images/square.png", CV_LOAD_IMAGE_GRAYSCALE);
     if(img1.empty() || img2.empty())
     {
         printf("Can't read one of the images\n");
